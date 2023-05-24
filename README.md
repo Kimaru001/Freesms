@@ -160,6 +160,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 - **[34D30Y](34db0y@protonmail.com)**
 - **SC AMAN**
+- **Kimaru**
 
 ### TODO:
 
