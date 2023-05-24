@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
+  <a href="https://github.com/Kimaru001/Freesms"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
   <br>
-  TBomb v2.1b
+  FreeSMS
   <br>
 </h1>
 
 
-<p align="center">A free and open-source SMS/Call bombing application</p>
+<p align="center">A free and open-source Free SMS/Call application</p>
 
 ## NOTES:
 
@@ -56,13 +56,13 @@ Before continuing make sure following requirements are satisfied:
 - Python version greater than or equal to 3.4 is installed
 - pip is installed for Python 3
 
-Install `tbomb` package by running:
+Install `FreeSMS` package by running:
 
 ```shell script
 pip3 install tbomb
 ```
 
-Run TBomb by just typing:
+Run FreeSMS by just typing:
 ```shell script
 tbomb
 ```
@@ -83,7 +83,7 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Kimaru001/Freesms.git
 cd TBomb
 ./TBomb.sh
 ```
@@ -97,7 +97,7 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Kimaru001/Freesms.git
 cd TBomb
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
@@ -109,7 +109,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Kimaru001/Freesms.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -131,7 +131,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Kimaru001/Freesms.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -148,7 +148,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 ## Contributors
 
-- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
+- Catch **[t0xic0der](https://github.com/Kimaru001))** at https://atlasdoc.netlify.app
 - Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
 - Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
 - Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
@@ -173,7 +173,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 **Q:** Is there any TBomb Website/App ?
 
-**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/TheSpeedX/TBomb) and [PyPi](https://pypi.org/project/tbomb)
+**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/Kimaru001/Freesms) and [PyPi](https://pypi.org/project/tbomb)
 ##
 **Q:** Poor Internet Connection Detected:
 
