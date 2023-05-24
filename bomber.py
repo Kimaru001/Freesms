@@ -310,12 +310,12 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 500, "call": 15, "mail": 200}
+        max_limit = {"sms": 1000, "call": 25, "mail": 200}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
             if cc != "91":
-                max_limit.update({"sms": 100})
+                max_limit.update({"sms": 200})
         elif mode == "mail":
             target = get_mail_info()
         else:
@@ -363,7 +363,7 @@ def selectnode(mode="sms"):
 
 
 mesgdcrt = MessageDecorator("icon")
-if sys.version_info[0] != 3:
+if sys.version_info[0] < 3:
     mesgdcrt.FailureMessage("TBomb will work only in Python v3")
     sys.exit()
 
@@ -374,7 +374,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['SpeedX', 'Kimaru', 'scpketer', 'Stefan']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
